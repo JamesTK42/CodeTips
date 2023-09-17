@@ -1,0 +1,28 @@
+.tbnum {
+    background-color: white;
+    color: #0a0a0a;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tbbk {
+    background-color: black;
+    color: #a3a3a3;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.tbrd {
+
+    background-color: rgb(187, 76, 76);
+    text-align: center;
+    vertical-align: middle;
+    color: #a3a3a3;
+}
+
+.tbrd strong{
+    background-color: inherit;
+}
+
+

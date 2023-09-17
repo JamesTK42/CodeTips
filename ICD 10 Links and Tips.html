@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Coding Links and Tips</title>
+
+</head>
+
+<body>
+  <main>
+    <h1>Coding Links and Tips</h1>
+  </main>
+  <hr>
+
+  <div>
+    <button><a href="#abbrv">Abbreviations</a></button>
+    <button><a href="#teeth">Oral and Dentistry</a></button>
+    <button><a href="#plas">Plastics</a></button>
+    <button><a href="#paeds">Paediatrics</a></button>
+    <button><a href="#dialysis">Dialysis</a></button>
+    <button><a href="#choice">Choice Coding</a></button>
+    <button><a href="#anticoags">Anticoagulants</a></button>
+
+    <hr>
+
+  </div>
+  <div>
+
+    <button><a href="https://classbrowser.nhs.uk/ICD-10-5TH-Edition/NCCS.pdf#page=3" target="_blank">ICD-10 Standards
+      </a></button>
+
+    <button><a href="https://classbrowser.nhs.uk/OPCS-4.10/OPCS.pdf#page=3" target="_blank">OPCS-9
+        Standards</a></button>
+
+    <button onclick="waitingList()">Harris Waiting List (Choice)</button>
+
+
+
+  </div>
+
+  <hr>
+  <div id="paeds">
+    <h2>Paediatrics</h2>
+    <p>Newborn, Neonatal and Perinatal all mean Baby</p>
+    <p><strong>Baby is 28 days or less!</strong></p>
+
+    <p> P Codes are found under Conditions Arising In The Perinatal Period </p>
+
+    <button><a href="https://classbrowser.nhs.uk/#/book/ICD-10-5TH-Edition/vol3/KRA_C.html+S109791" target="_blank">P
+        Codes</a></button>
+
+  </div>
+
+  <hr>
+  <div id="dialysis">
+    <h2>Dialysis</h2>
+
+    <p>ICD-10 Codes</p>
+    <ol>
+      <li>N18.5</li>
+      <li>Z49.1</li>
+      <li>Z99.2</li>
+    </ol>
+
+
+    <p>OPCS 4.10 Codes</p>
+    <ol>
+      <li>X40.3</li>
+    </ol>
+
+    <p><strong>I12.X Before Z49.1</strong></p>
+
+  </div>
+  <hr>
+  <div id="choice">
+    <h2>Choice Coding</h2>
+
+    <p>If No Op/Histology</p>
+    <ol>
+      <li>Flex Casenote Review</li>
+      <li>Option 142</li>
+      <li>Episode In question</li>
+      <li>Clinical Info</li>
+    </ol>
+
+    <p><strong>Check Back For Histology</strong></p>
+  </div>
+  <hr>
+
+  <div id="plas">
+    <h2>Plastics</h2>
+    <hr>
+    <div>
+      <button><a href="#inj">Injuries</a></button>
+      <button><a href="#burns">Burns</a></button>
+      <button><a href="#les">Lesions</a></button>
+      <button><a href="#breasts">Breasts</a></button>
+    </div>
+    <hr>
+    <div id="inj">
+      <h3>Injuries</h3>
+      <p>External Cause code fiirst episode only</p>
+      <p><strong>ANYTHING OPENED MUST BE CLOSED</strong></p>
+
+      <p>Suture Types</p>
+      <ul>
+        <li>Vicryl</li>
+        <li>Rapeed</li>
+        <li>Monocryl</li>
+        <li>Prolene</li>
+        <li>Sometimes just a number like '4.0'</li>
+        <li>Other time just 'Closed'</li>
+        <li>Things ending in '-Cryl'</li>
+      </ul>
+    </div>
+    <hr>
+    <div id="burns">
+      <h3>Burns</h3>
+      <p>ICD-10 Sequencing</p>
+      <ol>
+        <li>Burn Location</li>
+        <li>Burn Extent - T31.-</li>
+        <li>Cause Code</li>
+      </ol>
+    </div>
+    <hr>
+    <div id="les">
+      <h3>Lesions</h3>
+    </div>
+    <hr>
+    <div id="breasts">
+      <h3>Breasts</h3>
+      <p>Breast Reduction = reduction mamoplasty</p>
+      <p><strong>Trail Hypertrophy for large Breast (N62.-)</strong></p>
+    </div>
+  </div>
+
+  <hr>
+  <div id="teeth">
+<h2>Oral Surgery</h2>
+<hr>
+    <div>
+      <button><a href="#teethlat">Teeth Layout</a></button>
+      <button><a href="#dental_abbrv">Dental Abbreviations</a></button>
+      <button><a href="#simpsurg">Simple V Surgical</a></button>
+
+    </div>
+    <hr>
+
+    <div id="teethlat">
+    <h2>Table Of Teeth</h2>
+
+      <table onclick="teeth()">
+        <tbody>
+          <tr class="tbrd">
+            <td class="tbrd" colspan="18"><strong>UPPER</strong></td>
+
+          </tr>
+          <tr>
+            <td class="tbrd">&nbsp;</td>
+            <td class="tbnum">8</td>
+            <td class="tbnum">7</td>
+            <td class="tbnum">6</td>
+            <td class="tbnum">5</td>
+            <td class="tbnum">4</td>
+            <td class="tbnum">3</td>
+            <td class="tbnum">2</td>
+            <td class="tbnum">1</td>
+            <td class="tbnum">1</td>
+            <td class="tbnum">2</td>
+            <td class="tbnum">3</td>
+            <td class="tbnum">4</td>
+            <td class="tbnum">5</td>
+            <td class="tbnum">6</td>
+            <td class="tbnum">7</td>
+            <td class="tbnum">8</td>
+            <td class="tbrd">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="tbrd"><strong>R</strong></td>
+            <td class="tbbk">&nbsp;</td>
+            <td class="tbbk">E</td>
+            <td class="tbbk">D</td>
+            <td class="tbbk">&nbsp;</td>
+            <td class="tbbk">&nbsp;</td>
+            <td class="tbbk">C</td>
+            <td class="tbbk">B</td>
+            <td class="tbbk">A</td>
+            <td class="tbbk">A</td>
+            <td class="tbbk">B</td>
+            <td class="tbbk">C</td>
+            <td class="tbbk">&nbsp;</td>
+            <td class="tbbk">&nbsp;</td>
+            <td class="tbbk">D</td>
+            <td class="tbbk">E</td>
+            <td class="tbbk">&nbsp;</td>
+            <td class="tbrd"><strong>L</strong></td>
+          </tr>
+          <tr>
+            <td class="tbrd">&nbsp;</td>
+            <td class="tbnum">8</td>
+            <td class="tbnum">7</td>
+            <td class="tbnum">6</td>
+            <td class="tbnum">5</td>
+            <td class="tbnum">4</td>
+            <td class="tbnum">3</td>
+            <td class="tbnum">2</td>
+            <td class="tbnum">1</td>
+            <td class="tbnum">1</td>
+            <td class="tbnum">2</td>
+            <td class="tbnum">3</td>
+            <td class="tbnum">4</td>
+            <td class="tbnum">5</td>
+            <td class="tbnum">6</td>
+            <td class="tbnum">7</td>
+            <td class="tbnum">8</td>
+            <td class="tbrd">&nbsp;</td>
+          </tr>
+          <tr class="tbrd">
+            <td class="tbrd" colspan="18"><strong>Lower</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <br>
+
+    <div id="dental_abbrv">
+      <h2>Table Of Dental Abbreviations</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td>Dental Abbreviation</td>
+            <td>Meaning</td>
+          </tr>
+          <tr>
+            <td>&nbsp;^,X, Ex</td>
+            <td>Extraction of Tooth</td>
+          </tr>
+          <tr>
+            <td>&nbsp;/A</td>
+            <td>with&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;PE</td>
+            <td>Partially Erupted</td>
+          </tr>
+          <tr>
+            <td>RRF&nbsp;</td>
+            <td>Retrograde Root Filling</td>
+          </tr>
+          <tr>
+            <td>TTP&nbsp;</td>
+            <td>Tender To Percussion (toothache)</td>
+          </tr>
+          <tr>
+            <td>FEP&nbsp;</td>
+            <td>Fibro Epithelial Polyp</td>
+          </tr>
+          <tr>
+            <td>TMJ&nbsp;</td>
+            <td>Tempro Mandibular Joint</td>
+          </tr>
+          <tr>
+            <td>UE&nbsp;</td>
+            <td>Un-Erupted</td>
+          </tr>
+          <tr>
+            <td>XLA&nbsp;</td>
+            <td>&nbsp;Extraction under Local Anaesthetic</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="simpsurg">
+    <h2>Simple Vs Surgical Teeth</h2>
+
+
+      <table>
+        <thead>
+          <tr>
+            <td>Extractions</td>
+            <td>Key Words</td>
+            <td>ICD</td>
+            <td>OPCS</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>SIMPLE</p>
+            </td>
+            <td>Elevated<br />Extracted<br />Removed<br />Forceps</td>
+            <td>Dental caries, unspecified K02.9</td>
+            <td>Simple extraction of tooth - F10</td>
+          </tr>
+          <tr>
+            <td>SURGICAL</td>
+            <td>Flap Raised<br />Buccal Bone Removed<br />WISDOM TEETH</td>
+            <td>Embedded and impacted teeth -K01</td>
+            <td>Surgical removal of tooth - F09</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
+    <br>
+    <hr>
+
+    <div id="abbrv">
+
+      <h2>Table Of General Abbreviations</h2>
+      <table>
+        <tr>
+          <th>Abbreviation</th>
+          <th>Meaning</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+
+      </table>
+
+    </div>
+    <hr>
+
+
+    <div id="anticoags">
+
+      <h2>Table Of Anticoagulants</h2>
+      <table>
+        <tr>
+          <th>Anticoagulant</th>
+          <th>Brands</th>
+        </tr>
+        <tr>
+          <td>Adoxoban</td>
+          <td>Lixiana</td>
+        </tr>
+        <tr>
+          <td>Apixaban</td>
+          <td>Eliquis</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+
+      </table>
+
+    </div>
+    <hr>
+
+
+
+    <style>
+      * {
+        background-color: #5f5f5f;
+        color: #EDEDED;
+        font-family: consolas;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 25%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #7f7f7f;
+      }
+    </style>
+
+
+    <script>
+      function waitingList() {
+        alert("Casenote review-->142-->Episode-->Clinical Info");
+      }
+      function teeth() {
+        alert("Teeth Laterality Is Mirrored");
+      }
+    </script>
+</body>
+
+
+
+<!--
+                        _-_,,                            
+                       (  //    _                        
+                         _||   < \, \\/\\/\\  _-_   _-_, 
+                         _||   /-|| || || || || \\ ||_.  
+                          ||  (( || || || || ||/    ~ || 
+                       -__-,   \/\\ \\ \\ \\ \\,/  ,-_-  
+                                                         
+                                                         
+                                                                       
+          ,- _~.                                  ,,                   
+         (' /|                      '         _   ||      _            
+        ((  ||   \\ \\ \\/\\ \\/\\ \\ \\/\\  / \\ ||/\\  < \, \\/\\/\\ 
+        ((  ||   || || || || || || || || || || || || ||  /-|| || || || 
+         ( / |   || || || || || || || || || || || || || (( || || || || 
+          -____- \\/\\ \\ \\ \\ \\ \\ \\ \\ \\_-| \\ |/  \/\\ \\ \\ \\
+                                             /  \   _/                 
+                                            '----`                     -->
+
+
+
+
+
+
+</html>
