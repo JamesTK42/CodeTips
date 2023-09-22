@@ -1,0 +1,52 @@
+<code>
+#mainPanel {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid silver;
+    /* overflow: hidden; */
+    height: 100%;
+    /* avoid browser level touch actions */
+    xtouch-action: none;
+}
+
+#left {
+    top: 0%;
+    width: 19%;
+    max-width:40%;
+    min-width:19%;
+    height: 100%;
+    height: 100%;
+    position: relative;
+    resize: horizontal;
+    overflow: auto;
+}
+
+#right {
+
+    top: 0%;
+    right: 0px;
+    width: 81%;
+    max-width: 81%;
+    height: 100%;
+    position: relative;
+}
+
+#divSearch {
+    padding-top: 3px;
+    height: 150px;
+    bottom: 1ex;
+    font-size: 12pt;
+    display:none
+}
+
+#divTree {
+    position: absolute;
+    width: 100%;
+    top: 5px;
+    bottom: 0px;
+    overflow: auto;
+    border-right: 1px solid #dee2e6 !important;
+    font-size: 10pt;
+}
+  
+</code>
